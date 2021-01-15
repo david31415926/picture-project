@@ -193,7 +193,7 @@ public class WordFind extends FlexiblePictureExplorer implements ImageObserver {
 		for (int i = 0; i < board.getSize(); i++) {
 			for (int j = 0; j < board.getSize(); j++) {
 				Picture pict;
-				pict = new Picture(path + board.getLetter(i, j) + ".jpg");
+				pict = new Picture(path + board.getLetter(i, j).toUpperCase() + ".jpg");
 				graphics.drawImage(pict.getBufferedImage(), 
 				row, col, this);
 				row += 100;
