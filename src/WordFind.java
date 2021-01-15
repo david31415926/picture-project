@@ -69,7 +69,6 @@ public class WordFind extends FlexiblePictureExplorer implements ImageObserver {
 		menu2 = true;
 		disp = new Picture(path + "background.jpg");
 		Graphics2D graphics = disp.createGraphics();
-		setImage(disp);
 		graphics.setColor(Color.BLACK);
 		Picture title = new Picture(path + "title.png");
 		graphics.drawImage(title.getBufferedImage(), 
