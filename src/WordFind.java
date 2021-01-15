@@ -7,7 +7,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class WordFind extends FlexiblePictureExplorer implements ImageObserver {
-	private final String path = "wordfind\\";
+	private final String path = "./wordfind/";
 	private Board board;
 	private Picture disp;
 	private int count; //# of seconds
